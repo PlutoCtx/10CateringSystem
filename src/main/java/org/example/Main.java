@@ -1,7 +1,10 @@
 package org.example;
 
+import org.example.view.LogOnFrm;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        LogOnFrm log = new LogOnFrm();
+        log.setVisible(true);
     }
 }
